@@ -258,7 +258,7 @@ props:
 
 ### Loading Icon
 
-Use the `loading-icon` prop to customize the loading icon. Defaults to `i-lucide-refresh-ccw`.
+Use the `loading-icon` prop to customize the loading icon. Defaults to `i-lucide-refresh-cw`.
 
 ::component-code
 ---
@@ -491,7 +491,7 @@ class: '!p-0'
 ::
 
 ::note
-This example uses [refDebounced](https://vueuse.org/shared/refDebounced/#refdebounced) to debounce the API calls.
+This example uses [`refDebounced`](https://vueuse.org/shared/refDebounced/#refdebounced) to debounce the API calls.
 ::
 
 ### With post-filtered items
@@ -585,7 +585,7 @@ name: 'command-palette-open-example'
 ::
 
 ::note
-This can be useful when using the CommandPalette inside a [Modal](/components/modal) for example.
+This can be useful when using the CommandPalette inside a [`Modal`](/components/modal) for example.
 ::
 
 ### With custom slot

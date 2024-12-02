@@ -486,7 +486,7 @@ props:
 
 ### Loading Icon
 
-Use the `loading-icon` prop to customize the loading icon. Defaults to `i-lucide-refresh-ccw`.
+Use the `loading-icon` prop to customize the loading icon. Defaults to `i-lucide-refresh-cw`.
 
 ::component-code
 ---
@@ -650,7 +650,7 @@ name: 'select-open-example'
 ::
 
 ::note
-In this example, leveraging [defineShortcuts](/composables/define-shortcuts), you can toggle the Select by pressing :kbd{value="O"}.
+In this example, leveraging [`defineShortcuts`](/composables/define-shortcuts), you can toggle the Select by pressing :kbd{value="O"}.
 ::
 
 ### With rotating icon
